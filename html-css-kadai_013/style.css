@@ -76,6 +76,7 @@ SP用のスタイル
   
    body {
    min-width: 375px;
+   margin: 0;
   }
 
   #nav-pc {
@@ -84,13 +85,14 @@ SP用のスタイル
 
   #menu-sp {
     float: right;
+    padding: 0;
   }
 
   #nav-sp {
     background-color: #ec933e;
     position: absolute;
     left: 0;
-    right: 0;
+    top: 0;
     height: 100%;
     width: 100%;
     display: none;
@@ -131,7 +133,7 @@ SP用のスタイル
   #nav-sp > .menu {
    text-decoration: none;
    display: block;
-   margin: 0px 20px 0px 20px;
+   margin: 0 20px;
    height: 44px;
    font-size: 16px;
    background-image: url("images/arrow.png"); 
